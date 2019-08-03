@@ -1,0 +1,22 @@
+.nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #404041;
+  }
+  
+  .nav .nav-link {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Fredoka One', cursive;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    text-align: right;
+  }
+  
+  .nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
