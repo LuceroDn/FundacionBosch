@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./Style.css/NavBar.css";
-import {Navbar, Nav, Form, NavDropdown, Button} from "react-bootstrap";
 import {Link} from "react-scroll";
-import imgLogo from "./img/Image 3.png";
+import imgLogo from "./img/Image 3@2x.png";
 import imgFRB from './img/imgFRB.webp';
 
 
@@ -38,7 +37,6 @@ class NavBar extends Component {
       </li>
     </ul>
   </div>
-  
   <button class="btn btn-color my-2 my-sm-0 donate" type="submit">DONAR</button>
 </nav>
   

@@ -1,15 +1,17 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
 .btn-color{
     background-color: #3AAFA9 !important;
     color: #fff;
-    /* width: 8%;
-    height: 5vh; */
     border-radius: 40px;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
     font-family: 'Montserrat', sans serif;
-    /* font-size: 10px; */
     opacity: 100%;
 }
 
@@ -19,26 +21,8 @@
 
 .nav-link {
     font-family: 'Montserrat', sans serif;
-    /* font-size: 18px; */
     opacity: 100%;
 }
-
-/* .imgNav1{
-    padding-left: 8%;
-}
-
-.img1 {
-    width: 6rem;
-    height: 6rem;
-}
-
-#navbarText {
-    padding-left: 8%;
-} */
-
-/* .donate {
-    margin-right: 8%;
-} */
 
 @media (min-width: 5px) and (max-width: 369px) {
     .btn-color{
@@ -164,7 +148,7 @@
     .btn-color{
         width: 14%;
         height: 5vh;
-        font-size: 10px;
+        font-size: 11px;
      }   
     
      .donate {
@@ -172,7 +156,7 @@
     }
 
     .nav-link {
-        font-size: 10px;
+        font-size: 11px;
     }
     
      .imgNav1{
