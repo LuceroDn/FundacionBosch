@@ -1,0 +1,70 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contactSection{
+    height: -webkit-fill-available;
+    background-color: #f9f9f9 ;
+}
+
+.contactTitle{
+    text-align: center;
+    margin: 1rem;
+    padding-top: 4rem;
+}
+
+.subTitleContact{
+    text-align: center;
+    font-size: .8rem;
+}
+
+.formInput{
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid #b3cecd;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin: .4rem;
+    width: 100%;
+}
+
+.formInputTxt{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #b3cecd;
+    margin: .4rem;
+    width: 100%;
+}
+
+.formBtn{
+    border-radius: 4px;
+    background-color:#3aafa9;
+    border: none;
+    color: #FFF;
+    padding: 0.5rem;
+    font-size: .9rem;
+    width: 7rem;
+    font: weight 100;
+    width: 100%;
+}
+
+.formContact{
+    margin-top: 3rem;
+    padding-right: 7rem;
+}
+
+.contactInfoTxt{
+    margin-top: 6rem;
+}
+
+.contactMail{
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 1rem;
+}
+
+.mailColor{
+    color: #fe4f85;
+    font-size: 1rem;
+}

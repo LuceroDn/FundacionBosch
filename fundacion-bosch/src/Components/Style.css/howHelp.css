@@ -1,0 +1,58 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.infoHelp{
+    height: -webkit-fill-available;
+    background-color:#FFFF;
+}
+
+.preTitle{
+    color: #3AAFA9;
+    font-weight: 700;
+    font-size: .3rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.titleHelp{
+    text-align: center;
+    margin: 1rem;
+    
+}
+
+.subTitle{
+    text-align: center;
+    font-size: .8rem;
+}
+
+.iconBar {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.donationTxt{
+    margin-top: 4rem;
+}
+
+.decorLine{
+    background-color: #f4f4f4;
+    height: 3px;
+    margin-top: 2rem;
+}
+
+.bulletDecor{
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    height: 13px;
+    width: 13px;
+    margin-top: -5px;
+    margin-left: 50%;
+
+}
+
+.txtDecor{
+    font-size: .6rem;
+    font-weight: 700;
+    text-align: -webkit-center;
+    margin-top: .5rem;
+}
