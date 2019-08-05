@@ -15,18 +15,25 @@ class Video extends Component {
                         <source src={videoBosch} type="video/mp4"></source> 
                         </video>
                     </div>
+
                     <div className="titleVideo">
                     <h1>Programas que&nbsp;
                         <br />
 
                        cambian vidas</h1>
-                       <h5>Proyectos que favorezcan la plena inserción de&nbsp;
+                       <h5 className="text-center">Proyectos que favorezcan la plena inserción de&nbsp;
                            <br/>
                            niños, niñas y jóvenes en riesgo de exclusión social a causa de factores socioeconómicos,&nbsp;
                            <br/>
                             promoviendo la calidad de la educación, con la intención de cultivar verdaderos agentes de cambio
                        </h5>
                 </div> 
+                    <div className="row">
+                    <div className="arrow col-s-6">
+                    <a><i class="fas fa-chevron-down"></i></a>
+                    </div>
+                    </div>
+
                 </div>
             </section>
 
