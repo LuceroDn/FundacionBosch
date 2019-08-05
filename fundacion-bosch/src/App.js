@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "./Components/NavBar";
 import Video from "./Components/Video";
+import Who from "./Components/Who";
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
     <React.Fragment>
       <NavBar />
       <Video />
+      <Who />
     </React.Fragment>
     )
   }

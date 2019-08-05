@@ -3,7 +3,7 @@
     padding: 0%;
 }
 
-h1 {
+.titleVideo {
     background: linear-gradient(#3AAFA9,#005691);
     -webkit-background-clip: text;
     color: transparent;  
@@ -12,15 +12,14 @@ h1 {
 .arrow {
     color: #000000;
     z-index: 1;
-    margin-right: auto;
-    margin-left: auto;
+    
 }
 
 
 @media (min-width: 5px) and (max-width: 370px) {
     .header-container {
         width: 100%;
-        height: 900px;
+        height: 180px;
         border-left: none;
         border-right: none;
         position: relative;
@@ -34,29 +33,29 @@ h1 {
         width: 100%;
     }
     
-    video {
+    .videoV {
         position: absolute;
         z-index: -1;
         opacity: 0.15;
         width: 100%;
-        top: -23%;
+        top: -20%;
     }
     
-    h1 {
+    .titleVideo {
         letter-spacing: -1px;
         z-index: 1;
         text-align: center;
         margin-right: auto;
         margin-left: auto;
-        font-size: 15px;
+        font-size: 13px;
         font-family: 'Montserrat', sans-erif;
         line-height: 100%;
         margin-bottom: 2%;
         margin-top: 10%;
     }
     
-    h5 {
-        font-size: 5px;
+    .textVideo {
+        font-size: 4px;
         line-height: 120%;
         font-family: 'Montserrat Regular', sans-serif;
         font-weight: 1;
@@ -70,10 +69,10 @@ h1 {
 
     }
     
-@media (min-width: 369px) and (max-width: 575.98px) {
+@media (min-width: 371px) and (max-width: 575.98px) {
     .header-container {
         width: 100%;
-        height: 900px;
+        height: 210px;
         border-left: none;
         border-right: none;
         position: relative;
@@ -87,29 +86,28 @@ h1 {
         width: 100%;
     }
     
-    video {
+    .videoV {
         position: absolute;
         z-index: -1;
         opacity: 0.15;
         width: 100%;
-        top: -28%;
+        top: -16%;
     }
     
-    h1 {
+    .titleVideo {
         letter-spacing: -1px;
         z-index: 1;
         text-align: center;
         margin-right: auto;
         margin-left: auto;
         font-size: 123%;
-        font-family: 'Montserrat', sans-erif;
+        font-family: 'Montserrat', sans-serif;
         line-height: 100%;
-        color: rgb(#005691, #2B7A78,#2B7A78);
         margin-bottom: 2%;
         margin-top: 14%;
     }
     
-    h5 {
+    .textVideo {
         font-size: 7px;
         line-height: 120%;
         font-family: 'Montserrat Regular', sans-serif;
@@ -126,7 +124,7 @@ h1 {
 @media (min-width: 576px) and (max-width: 767.98px) {
     .header-container {
         width: 100%;
-        height: 900px;
+        height: 320px;
         border-left: none;
         border-right: none;
         position: relative;
@@ -140,15 +138,15 @@ h1 {
         width: 100%;
     }
     
-    video {
+    .videoV {
         position: absolute;
         z-index: -1;
         opacity: 0.15;
         width: 100%;
-        top: -26%;
+        top: -21%;
     }
     
-    h1 {
+    .titleVideo {
         letter-spacing: -1px;
         z-index: 1;
         text-align: center;
@@ -157,12 +155,11 @@ h1 {
         font-size: 163%;
         font-family: 'Montserrat', sans-erif;
         line-height: 100%;
-        color: rgb(#005691, #2B7A78,#2B7A78);
         margin-bottom: 2%;
         margin-top: 11%;
     }
     
-    h5 {
+    .textVideo {
         font-size: 8px;
         line-height: 120%;
         font-family: 'Montserrat Regular', sans-serif;
@@ -179,7 +176,7 @@ h1 {
 @media (min-width: 768px) and (max-width: 991.98px) {
     .header-container {
         width: 100%;
-        height: 900px;
+        height: 370px;
         border-left: none;
         border-right: none;
         position: relative;
@@ -193,15 +190,15 @@ h1 {
         width: 100%;
     }
     
-    video {
+    .videoV {
         position: absolute;
         z-index: -1;
         opacity: 0.15;
         width: 100%;
-        top: -26%;
+        top: -21%;
     }
     
-    h1 {
+    .titleVideo {
         letter-spacing: -1px;
         z-index: 1;
         text-align: center;
@@ -214,7 +211,7 @@ h1 {
         margin-top: 11%;
     }
     
-    h5 {
+    .textVideo {
         font-size: 10px;
         line-height: 120%;
         font-family: 'Montserrat Regular', sans-serif;
@@ -228,115 +225,12 @@ h1 {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-     .header-container {
-        width: 100%;
-        height: 900px;
-        border-left: none;
-        border-right: none;
-        position: relative;
-    }
-    
-    .video-container {
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        height: 100;
-        width: 100%;
-    }
-    
-    video {
-        position: absolute;
-        z-index: -1;
-        opacity: 0.15;
-        width: 100%;
-        top: -26%;
-    }
-    
-    h1 {
-        letter-spacing: -1px;
-        z-index: 1;
-        text-align: center;
-        margin-right: auto;
-        margin-left: auto;
-        font-size: 173%;
-        font-family: 'Montserrat', sans-erif;
-        line-height: 100%;
-        color: rgb(#005691, #2B7A78,#2B7A78);
-        margin-bottom: 2%;
-        margin-top: 13%;
-    }
-    
-    h5 {
-        font-size: 9px;
-        line-height: 120%;
-        font-family: 'Montserrat Regular', sans-serif;
-        font-weight: 1;
-        color: #000000;
-    }
 
-    .arrow {
-        font-size: 16px;
-        margin-top: 4%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .header-container {
-        width: 100%;
-        height: 900px;
-        border-left: none;
-        border-right: none;
-        position: relative;
-    }
-    
-    .video-container {
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        height: 100;
-        width: 100%;
-    }
-    
-    video {
-        position: absolute;
-        z-index: -1;
-        opacity: 0.15;
-        width: 100%;
-        top: -26%;
-    }
-    
-    h1 {
-        letter-spacing: -1px;
-        z-index: 1;
-        text-align: center;
-        margin-right: auto;
-        margin-left: auto;
-        font-size: 213%;
-        font-family: 'Montserrat', sans-serif;
-        line-height: 100%;
-        margin-bottom: 2%;
-        margin-top: 13%;
-    }
-    
-    h5 {
-        font-size: 12px;
-        line-height: 120%;
-        font-family: 'Montserrat Regular', sans-serif;
-        font-weight: 1;
-        color: #000000;
-    }
-
-    .arrow {
-        font-size: 24px;
-        margin-top: 3%;
-    }
-}
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .header-container {
         width: 100%;
-        height: 900px;
+        height: 510px;
         border-left: none;
         border-right: none;
         position: relative;
@@ -350,15 +244,15 @@ h1 {
         width: 100%;
     }
     
-    video {
+    .videoV {
         position: absolute;
         z-index: -1;
         opacity: 0.15;
         width: 100%;
-        top: -27%;
+        top: -19%;
     }
     
-    h1 {
+    .titleVideo {
         letter-spacing: -1px;
         z-index: 1;
         text-align: center;
@@ -367,12 +261,11 @@ h1 {
         font-size: 251%;
         font-family: 'Montserrat', sans-serif;
         line-height: 100%;
-        color: rgb(#005691, #2B7A78,#2B7A78);
         margin-bottom: 2%;
         margin-top: 12%;
     }
     
-    h5 {
+    .textVideo {
         font-size: 14px;
         line-height: 120%;
         font-family: 'Montserrat Regular', sans-serif;
@@ -389,7 +282,7 @@ h1 {
 @media (min-width: 1200px) {
     .header-container {
         width: 100%;
-        height: 900px;
+        height: 690px;
         border-left: none;
         border-right: none;
         position: relative;
@@ -403,15 +296,15 @@ h1 {
         width: 100%;
     }
     
-    video {
+    .videoV {
         position: absolute;
         z-index: -1;
         opacity: 0.15;
         width: 100%;
-        top: -27%;
+        top: -21%;
     }
     
-    h1 {
+    .titleVideo {
         letter-spacing: -1px;
         z-index: 1;
         text-align: center;
@@ -420,12 +313,11 @@ h1 {
         font-size: 348%;
         font-family: 'Montserrat', sans-serif;
         line-height: 100%;
-        color: rgb(#005691, #2B7A78,#2B7A78);
         margin-bottom: 2%;
         margin-top: 10%;
     }
     
-    h5 {
+    .textVideo {
         font-size: 17px;
         line-height: 120%;
         font-family: 'Montserrat Regular', sans-serif;
