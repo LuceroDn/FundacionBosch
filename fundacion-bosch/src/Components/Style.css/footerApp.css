@@ -1,0 +1,61 @@
+.pageFooter{
+    height: 13rem;
+    background-color: #3c3d41;
+}
+
+.titleFooter{
+    color: white;
+    text-align: center;
+    font-size: .7rem;
+    font-weight: 900;
+}
+
+.subtitleFooter{
+    color: white;
+    text-align: center;
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+.boschName{
+    margin-top: 2rem;
+}
+
+.boschNameA{
+    margin-top: 2rem;
+}
+
+.boschTxt{
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-size: .7rem;
+    opacity: 0.5;
+}
+
+.boschTxt p {
+    margin-top: 0rem;
+    font-size: .7rem;
+    margin-left: 9rem;
+    font-family: 'PT Serif', serif;
+    opacity: 0.5;
+}
+
+.socialIcons{
+    opacity: 0.5;
+    margin-left: 11rem;
+    margin-top: 3rem;
+}
+
+/*------mobile medias------*/
+@media only screen and (max-width: 426px){
+    .boschName{
+        display: none;
+    }
+    .socialIcons{
+        margin-left: 5rem;
+    }
+    .boschNameA{
+        padding-top: 2rem;
+        margin-top: 0rem;
+    }
+}

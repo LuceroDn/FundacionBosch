@@ -2,7 +2,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 .infoHelp{
-    height: -webkit-fill-available;
+    height: 100%;
     background-color:#FFFF;
 }
 
@@ -55,4 +55,14 @@
     font-weight: 700;
     text-align: -webkit-center;
     margin-top: .5rem;
+}
+
+/*------mobile medias------*/
+@media only screen and (max-width: 426px){
+    .iconBar div{
+        max-width: 33%;
+    }
+    .decorLine{
+        display: none;
+    }
 }

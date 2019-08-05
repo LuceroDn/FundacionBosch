@@ -1,6 +1,10 @@
 .mainProyect{
-    height: -webkit-fill-available;
+    height: 100%;
     background-color:#F9F9F9;
+}
+
+.sizeComponent {
+    max-width: 100%;
 }
 
 .textProyects {
@@ -38,3 +42,19 @@ p {
     margin-left: 2.3rem;
 }
 
+/*------mobile medias------*/
+@media only screen and (max-width: 426px){
+    .btnCard1 {
+        display: none;
+    }
+    .btnCard2 {
+        display: none;
+    }
+    .proyectCards{
+        overflow: auto;
+        white-space: unset;
+    }
+
+    
+
+}

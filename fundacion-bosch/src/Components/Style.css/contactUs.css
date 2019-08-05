@@ -3,8 +3,9 @@
 }
 
 .contactSection{
-    height: -webkit-fill-available;
+    height: 100%;
     background-color: #f9f9f9 ;
+    padding-bottom: 7rem;
 }
 
 .contactTitle{
@@ -67,4 +68,14 @@
 .mailColor{
     color: #fe4f85;
     font-size: 1rem;
+}
+
+/*------mobile medias------*/
+@media only screen and (max-width: 426px){
+    .formContact{
+        padding-right: 0rem;
+    }
+    .row {
+        max-width: 100%;
+    }
 }

@@ -27,7 +27,7 @@ render (){
                     <div className="col-md-6 col-sm-12 col-lg-6 contactInfoTxt">
                         <div className="row">
                             <div className="col-md-1 col-sm-1 col-lg-1" >
-                                <img alt= "donation" src={celIcon} />
+                                <img alt= "dirección" src={mapIcon} />
                             </div>
                             <div className= "col-md-11 col-sm-11 col-lg-11">
                                 Dirección Guillermo González Camarena #333 <br></br>
@@ -38,7 +38,7 @@ render (){
                         </div>
                     <div className="row">
                             <div className="col-md-1 col-sm-1 col-lg-1" >
-                                <img alt= "donation" src={mapIcon} />
+                                <img alt= "teléfono" src={celIcon} />
                             </div>
                             <div className="col-md-11 col-sm-11 col-lg-11">
                                 (044)-55-48-97-54-06
