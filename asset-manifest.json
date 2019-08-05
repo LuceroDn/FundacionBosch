@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/FundacionBosch/static/css/main.0ad268a7.chunk.css",
+    "main.js": "/FundacionBosch/static/js/main.c1ac6ebd.chunk.js",
+    "main.js.map": "/FundacionBosch/static/js/main.c1ac6ebd.chunk.js.map",
+    "runtime~main.js": "/FundacionBosch/static/js/runtime~main.e1974806.js",
+    "runtime~main.js.map": "/FundacionBosch/static/js/runtime~main.e1974806.js.map",
+    "static/css/2.d9a3577d.chunk.css": "/FundacionBosch/static/css/2.d9a3577d.chunk.css",
+    "static/js/2.e3203ba4.chunk.js": "/FundacionBosch/static/js/2.e3203ba4.chunk.js",
+    "static/js/2.e3203ba4.chunk.js.map": "/FundacionBosch/static/js/2.e3203ba4.chunk.js.map",
+    "index.html": "/FundacionBosch/index.html",
+    "precache-manifest.d447eab31bdc3cd2ca07e2d62551d8a7.js": "/FundacionBosch/precache-manifest.d447eab31bdc3cd2ca07e2d62551d8a7.js",
+    "service-worker.js": "/FundacionBosch/service-worker.js",
+    "static/css/2.d9a3577d.chunk.css.map": "/FundacionBosch/static/css/2.d9a3577d.chunk.css.map",
+    "static/css/main.0ad268a7.chunk.css.map": "/FundacionBosch/static/css/main.0ad268a7.chunk.css.map",
+    "static/media/Image 3@2x.png": "/FundacionBosch/static/media/Image 3@2x.5cef7058.png",
+    "static/media/becas.jpg": "/FundacionBosch/static/media/becas.e835d633.jpg",
+    "static/media/imgFRB.webp": "/FundacionBosch/static/media/imgFRB.6918da39.webp",
+    "static/media/videoBosch.mp4": "/FundacionBosch/static/media/videoBosch.77598c8b.mp4"
+  }
+}
