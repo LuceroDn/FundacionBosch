@@ -1,0 +1,332 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.titleVideo {
+    background: linear-gradient(#3AAFA9,#005691);
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+.arrow {
+    color: #000000;
+    z-index: 1;
+    
+}
+
+
+@media (min-width: 5px) and (max-width: 370px) {
+    .header-container {
+        width: 100%;
+        height: 180px;
+        border-left: none;
+        border-right: none;
+        position: relative;
+    }
+    
+    .video-container {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        height: 100;
+        width: 100%;
+    }
+    
+    .videoV {
+        position: absolute;
+        z-index: -1;
+        opacity: 0.15;
+        width: 100%;
+        top: -20%;
+    }
+    
+    .titleVideo {
+        letter-spacing: -1px;
+        z-index: 1;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 13px;
+        font-family: 'Montserrat', sans-erif;
+        line-height: 100%;
+        margin-bottom: 2%;
+        margin-top: 10%;
+    }
+    
+    .textVideo {
+        font-size: 4px;
+        line-height: 120%;
+        font-family: 'Montserrat Regular', sans-serif;
+        font-weight: 1;
+        color: #000000;
+    }
+
+    .arrow {
+        font-size: 12px;
+        margin-top: 3%;
+    }
+
+    }
+    
+@media (min-width: 371px) and (max-width: 575.98px) {
+    .header-container {
+        width: 100%;
+        height: 210px;
+        border-left: none;
+        border-right: none;
+        position: relative;
+    }
+    
+    .video-container {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        height: 100;
+        width: 100%;
+    }
+    
+    .videoV {
+        position: absolute;
+        z-index: -1;
+        opacity: 0.15;
+        width: 100%;
+        top: -16%;
+    }
+    
+    .titleVideo {
+        letter-spacing: -1px;
+        z-index: 1;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 123%;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 100%;
+        margin-bottom: 2%;
+        margin-top: 14%;
+    }
+    
+    .textVideo {
+        font-size: 7px;
+        line-height: 120%;
+        font-family: 'Montserrat Regular', sans-serif;
+        font-weight: 1;
+        color: #000000;
+    }
+
+    .arrow {
+        font-size: 13px;
+        margin-top: 3%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header-container {
+        width: 100%;
+        height: 320px;
+        border-left: none;
+        border-right: none;
+        position: relative;
+    }
+    
+    .video-container {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        height: 100;
+        width: 100%;
+    }
+    
+    .videoV {
+        position: absolute;
+        z-index: -1;
+        opacity: 0.15;
+        width: 100%;
+        top: -21%;
+    }
+    
+    .titleVideo {
+        letter-spacing: -1px;
+        z-index: 1;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 163%;
+        font-family: 'Montserrat', sans-erif;
+        line-height: 100%;
+        margin-bottom: 2%;
+        margin-top: 11%;
+    }
+    
+    .textVideo {
+        font-size: 8px;
+        line-height: 120%;
+        font-family: 'Montserrat Regular', sans-serif;
+        font-weight: 1;
+        color: #000000;
+    }
+
+    .arrow {
+        font-size: 12px;
+        margin-top: 4%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header-container {
+        width: 100%;
+        height: 370px;
+        border-left: none;
+        border-right: none;
+        position: relative;
+    }
+    
+    .video-container {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        height: 100;
+        width: 100%;
+    }
+    
+    .videoV {
+        position: absolute;
+        z-index: -1;
+        opacity: 0.15;
+        width: 100%;
+        top: -21%;
+    }
+    
+    .titleVideo {
+        letter-spacing: -1px;
+        z-index: 1;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 200%;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 100%;
+        margin-bottom: 2%;
+        margin-top: 11%;
+    }
+    
+    .textVideo {
+        font-size: 10px;
+        line-height: 120%;
+        font-family: 'Montserrat Regular', sans-serif;
+        font-weight: 1;
+        color: #000000;
+    }
+
+    .arrow {
+        font-size: 20px;
+        margin-top: 2%;
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header-container {
+        width: 100%;
+        height: 510px;
+        border-left: none;
+        border-right: none;
+        position: relative;
+    }
+    
+    .video-container {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        height: 100;
+        width: 100%;
+    }
+    
+    .videoV {
+        position: absolute;
+        z-index: -1;
+        opacity: 0.15;
+        width: 100%;
+        top: -19%;
+    }
+    
+    .titleVideo {
+        letter-spacing: -1px;
+        z-index: 1;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 251%;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 100%;
+        margin-bottom: 2%;
+        margin-top: 12%;
+    }
+    
+    .textVideo {
+        font-size: 14px;
+        line-height: 120%;
+        font-family: 'Montserrat Regular', sans-serif;
+        font-weight: 1;
+        color: #000000;
+    }
+
+    .arrow {
+        font-size: 28px;
+        margin-top: 4%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-container {
+        width: 100%;
+        height: 690px;
+        border-left: none;
+        border-right: none;
+        position: relative;
+    }
+    
+    .video-container {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        height: 100;
+        width: 100%;
+    }
+    
+    .videoV {
+        position: absolute;
+        z-index: -1;
+        opacity: 0.15;
+        width: 100%;
+        top: -21%;
+    }
+    
+    .titleVideo {
+        letter-spacing: -1px;
+        z-index: 1;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 348%;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 100%;
+        margin-bottom: 2%;
+        margin-top: 10%;
+    }
+    
+    .textVideo {
+        font-size: 17px;
+        line-height: 120%;
+        font-family: 'Montserrat Regular', sans-serif;
+        font-weight: 1;
+        color: #000000;
+    }
+
+    .arrow {
+        font-size: 37px;
+        margin-top: 5%;
+    }
+}
