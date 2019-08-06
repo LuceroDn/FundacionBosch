@@ -11,6 +11,8 @@ import ContactUs from "./Components/ContactUs";
 import FooterApp from "./Components/FooterApp";
 import Form from "./Components/Form";
 
+
+
 class App extends Component {
   render() {
     return (
@@ -24,6 +26,7 @@ class App extends Component {
     <a name="apoyo"></a> <HowHelp />
     <a name="contacto"></a> <ContactUs /> 
     <FooterApp />
+  
     <a name="formulario"></a> <Form />
 
     </React.Fragment>

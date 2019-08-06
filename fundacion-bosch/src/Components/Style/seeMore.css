@@ -1,0 +1,62 @@
+.seeMoreSection{
+    background-color: #f9f9f9;
+}
+.seeMorePage{
+    background-color: #FFF;
+    /*margin: 7rem;*/
+}
+.upTitle{
+    color: #838D8F;
+    font-weight: 700;
+    font-size: .7rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+.upTitleDark{
+    color: black;
+    font-weight: 700;
+    font-size: .5rem;
+    text-align: center;
+}
+.numberData{
+    color: black;
+    font-weight: 400;
+    font-size: .6rem;
+    text-align: center;
+    margin: 0rem;
+}
+.benefitStadistic{
+   
+    text-align: center;
+    padding-left: 15rem;
+    padding-right: 3rem;
+    margin-top: 10rem;
+}
+.proyectPic{
+    text-align: center;
+    margin-top: 6rem;
+}
+.proyectPic img {
+    width: 100%;
+}
+.tag1{
+    border-radius: 4px;
+    border: none;
+    color: #FFF;
+    padding: 0.5rem;
+    font-size: .9rem;
+    width: 7rem;
+    font: weight 100;
+    width: 100%;
+}
+@media only screen and (max-width: 426px){
+    .row {
+        max-width: 100%;
+    }
+    .benefitStadistic{
+        text-align: center;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-top: 0rem;
+    }
+}

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Style/howHelp.css";
-import donationIcon from './resources/donation1.png';
+import donationIcon from './img/donation1.png';
 import donationBox from './resources/boxdonation.png';
 import peopleIcon from './resources/resources.png'
 
@@ -37,13 +37,13 @@ render(){
             </div>
             <div className= "row justify-content-center">
                 <div className= "row col-md-8 col-sm-12 col-lg-8 justify-content-center iconBar">
-                    <div className="col-md-4 col-sm-4 col-lg-4 " onClick={(e)=>{this.showInfo(this.bankInfo, e)}}>
-                        <img alt= "donation" src={donationIcon} />
+                    <div className="col-md-4 col-sm-4 col-lg-4 icon1" onClick={(e)=>{this.showInfo(this.bankInfo, e)}}>
+                        <img  alt= "donation" src={donationIcon} />
                     </div>
-                    <div className="col-md-4 col-sm-4 col-lg-4 " onClick={(e)=>{this.showInfo(this.infoMaterial, e)}}>
+                    <div className="col-md-4 col-sm-4 col-lg-4 icon1" onClick={(e)=>{this.showInfo(this.infoMaterial, e)}}>
                         <img alt= "donationBox" src={donationBox} />
                     </div>
-                    <div className="col-md-4 col-sm-4 col-lg-4 " onClick={(e)=>{this.showInfo(this.infoVoluntary, e)}}>
+                    <div className="col-md-4 col-sm-4 col-lg-4 icon1" onClick={(e)=>{this.showInfo(this.infoVoluntary, e)}}>
                         <img alt= "people" src= {peopleIcon} />
                     </div>
                 </div>
