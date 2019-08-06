@@ -1,0 +1,39 @@
+.butn {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    height: 20%;
+}
+
+.btn-send {
+    color: white;
+    background-color:  #3AAFA9;
+}
+
+.btn-send:hover {
+    color: darkcyan;
+}
+
+form {
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    color: #999;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.titleForm {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10%;
+}

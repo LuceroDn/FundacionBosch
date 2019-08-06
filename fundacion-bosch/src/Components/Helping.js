@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Style.css/Helping.css';
+import './Style/Helping.css';
 import imgHelping from "./img/Image 11@2x.png";
 import website from './img/website.png'
 import skills from './img/skills.png';
@@ -23,7 +23,7 @@ class Helping extends Component {
                     </div>
 
                     <div>
-                        <p className="textHelping col-md-10 offset-md-1">
+                        <p className="textHelping col-md-10 offset-md-2">
                         Fundación Bosch está enfocada en beneficiar a niños y&nbsp;
               <br />
               jóvenes de zonas desfavorecidas social y económicamente, a&nbsp;

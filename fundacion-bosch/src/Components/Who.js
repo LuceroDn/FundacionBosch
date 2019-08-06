@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Style.css/Who.css';
+import './Style/Who.css';
 
 class Who extends Component {
     render() {

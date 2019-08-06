@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Style.css/NavBar.css";
+import "./Style/NavBar.css";
 import {Link} from "react-router-dom";
 import imgLogo from "./img/Image 3@2x.png";
 import imgFRB from './img/imgFRB.webp';
@@ -24,16 +24,16 @@ class NavBar extends Component {
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-       <a class="nav-link home" href="home">HOME<span class="sr-only">(current)</span></a>
+       <a class="nav-link home" href="#home">HOME<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="quienes-somos">¿QUIÉNES SOMOS?</a>
+        <a class="nav-link" href="#quienes-somos">¿QUIÉNES SOMOS?</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="ultimos-proyectos">PROYECTOS</a>
+        <a class="nav-link" href="#ultimos-proyectos">PROYECTOS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="contacto">CONTACTO</a>
+        <a class="nav-link" href="#contacto">CONTACTO</a>
       </li>
     </ul>
   </div>

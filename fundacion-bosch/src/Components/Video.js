@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Style.css/Video.css';
+import './Style/Video.css';
 import videoBosch from './img/videoBosch.mp4';
 import posterVideo from './img/becas.jpg';
 

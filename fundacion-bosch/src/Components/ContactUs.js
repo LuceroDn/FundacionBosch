@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Style.css/contactUs.css";
+import "./Style/contactUs.css";
 import celIcon from './resources/celIcon.png';
 import mapIcon from './resources/mapIcon.png';
 

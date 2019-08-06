@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Card from 'react-bootstrap/Card';
-import "./Style.css/cardsProyect.css";
+import "./Style/cardsProyect.css";
 import dummypic from './resources/dummypic.png';
 
 class ProyectCards extends Component {
@@ -19,31 +19,29 @@ class ProyectCards extends Component {
         );
       });
     }
-  // constructor(props){
-  //   super(props);
-  //   this.nameProyect = "Nombre del proyecto";
-  //   this.textProyect = "Some quick example text to build on the card title and make up the bulk of the cards content.";  
-  //   this.showMore = "#";
-  // }
-
-render() {
-  const{ projects} = this.state;
-  console.log(projects);  
-
-    return(
-        <Card className= "dinamicCards col-md-4 col-sm-12 col-lg-4">
-          <Card.Img variant="top" src={dummypic} />
-            <Card.Body>
-              <Card.Title>{this.nameProyect}</Card.Title>
-                <Card.Text>
-                 {this.textProyect}
-                </Card.Text>
-                <Card.Link href={this.showMore}>Ver más > </Card.Link>
-            </Card.Body>
-      </Card>
-    );
-}
-
-}
-
+      render() {
+        const { projects } = this.state;
+        console.log(projects);
+          return(
+            <div className= "projects">
+              {projects.map((item, index) =>{
+                return(
+                <Card key={index} className= "dinamicCards col-md-4 col-sm-12 col-lg-4">
+                  <Card.Img variant="top" src={item.picture} />
+                  <span className="tags">{item.typeProject}</span>
+                    <Card.Body>
+                      <Card.Title>{item.nameProject}</Card.Title>
+                        <Card.Text>
+                        {item.content}
+                        </Card.Text>
+                        <Card.Link>Ver más > </Card.Link>
+                    </Card.Body>
+               </Card>
+                )}
+              )}
+            </div>
+          );
+      }
+    }
+      
 export default ProyectCards;

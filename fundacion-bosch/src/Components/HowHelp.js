@@ -1,10 +1,27 @@
 import React, { Component } from "react";
-import "./Style.css/howHelp.css";
+import "./Style/howHelp.css";
 import donationIcon from './resources/donation1.png';
 import donationBox from './resources/boxdonation.png';
 import peopleIcon from './resources/resources.png'
 
-class HowHelp extends Component {
+class HowHelp extends Component {    
+
+    constructor(props){
+        super(props);
+         this.bankInfo = React.createRef();
+         this.infoMaterial = React.createRef();
+         this.infoVoluntary = React.createRef();
+    }
+/*nombre de la referencia.current.value*/
+
+    showInfo = (element,src) =>{
+        this.bankInfo.current.style.display = "none";
+        this.infoMaterial.current.style.display = "none";
+        this.infoVoluntary.current.style.display = "none";
+        element.current.style.display = "flex";
+        /*src.target.parentElement.style.color = "blue";*/
+        
+    }
 
 render(){
     return(
@@ -20,13 +37,13 @@ render(){
             </div>
             <div className= "row justify-content-center">
                 <div className= "row col-md-8 col-sm-12 col-lg-8 justify-content-center iconBar">
-                    <div className="col-md-4 col-sm-4 col-lg-4 ">
+                    <div className="col-md-4 col-sm-4 col-lg-4 " onClick={(e)=>{this.showInfo(this.bankInfo, e)}}>
                         <img alt= "donation" src={donationIcon} />
                     </div>
-                    <div className="col-md-4 col-sm-4 col-lg-4 ">
+                    <div className="col-md-4 col-sm-4 col-lg-4 " onClick={(e)=>{this.showInfo(this.infoMaterial, e)}}>
                         <img alt= "donationBox" src={donationBox} />
                     </div>
-                    <div className="col-md-4 col-sm-4 col-lg-4 ">
+                    <div className="col-md-4 col-sm-4 col-lg-4 " onClick={(e)=>{this.showInfo(this.infoVoluntary, e)}}>
                         <img alt= "people" src= {peopleIcon} />
                     </div>
                 </div>
@@ -45,7 +62,7 @@ render(){
                     </div>
                 </div>
             </div>
-            <div className= "row justify-content-center ">
+            <div ref={this.bankInfo} className= "row justify-content-center ">
                 <div className= "row col-md-8 col-sm-12 col-lg-8 donationTxt">
                     <div className="col-md-6 col-sm-12 col-lg-6">
                         <p>
@@ -66,6 +83,37 @@ render(){
                         sea enviados a:
                         <br></br>
                         contacto@fundacionboschmexico.org
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div ref={this.infoMaterial} className= "row justify-content-center" style={{display:"none"}}>
+                <div className= "row col-md-8 col-sm-12 col-lg-8 donationTxt">
+                    <div className="col-md-6 col-sm-12 col-lg-6">
+                        <p>
+                        Cualquier persona u organización que lo desee puede hacer aportaciones materiales o en especie para algun proyecto concreto e iniciar otros nuevos. <br></br>Algunos elemplos de donaciones frecuentes son los siguientes:
+                        </p>
+                    </div>
+                    <div className="col-md-6 col-sm-12 col-lg-6">
+                        <p>
+                            -Ceder espacios, equipamiento o recursos para la realización de actividades educativas. <br></br>
+                            -Donar material escolar, educativo o informático para aulas o laboratorios escolares. <br></br>
+                            Si estas interesado en realizar alguna aportación, ponte en contacto con nosotros para informarte sobre el procedimiento.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div ref={this.infoVoluntary} className= "row justify-content-center" style={{display:"none"}}>
+                <div className= "row col-md-8 col-sm-12 col-lg-8 donationTxt">
+                    <div className="col-md-6 col-sm-12 col-lg-6">
+                        <p>
+                       Los voluntarios son la valiosa fuerza y talento en movimiento en Fundacion Bosch. A través de estas iniciativas, es posible generar cambios en las escuelas, insitituciones y comunidades. Puedes participar como voluntario en diversas actividades, desde educativas hasta de mejora de infraestructura, siempre trabajando en apoyo a niños y jóvenes en México.
+                        </p>
+                    </div>
+                    <div className="col-md-6 col-sm-12 col-lg-6">
+                        <p>
+                        ¿Te interesa nuestro trabajo y quieres echarnos una mano? <br /> <br/>A través del voluntariado tienes multiples formas de canalizar esa iniciativa y esas ganas de colaborar.
+                            
                         </p>
                     </div>
                 </div>

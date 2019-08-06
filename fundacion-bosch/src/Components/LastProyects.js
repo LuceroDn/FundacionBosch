@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Style.css/lastProyects.css";
+import "./Style/lastProyects.css";
 import ProyectCards from "./ProyectCards";
 
 
@@ -20,11 +20,7 @@ render(){
             <div className= "btnCard1">&lt;</div>
             <div className= "proyectCards col-md-8 col-sm-12 col-lg-8">
                 <ProyectCards />
-                <ProyectCards />
-                <ProyectCards />
-                <ProyectCards />
-                <ProyectCards />
-                <ProyectCards />
+        
             </div>
             <div className="btnCard2">&gt;</div>
         </div>

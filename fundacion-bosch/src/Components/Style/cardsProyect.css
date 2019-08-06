@@ -1,0 +1,26 @@
+.dinamicCards {
+    display: inline-block;
+    white-space: normal;
+    margin: 1.5rem;
+    height: 23rem;
+    overflow: hidden;
+    box-shadow:  0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 0px 3px 0 rgba(0, 0, 0, 0.16);
+}
+.dinamicCards p {
+    height: 4rem;
+    overflow: hidden;
+}
+.tags{
+    color: white;
+    background-color: #6b3de4;
+    position: sticky;
+    padding: .2rem;
+    font-size: smaller;
+    font-weight: 600;
+    border-radius: 8%;
+}
+@media only screen and (max-width: 426px){
+    .dinamicCards{
+        margin: .5rem;
+    }
+}
