@@ -3,122 +3,53 @@
     padding: 0%;
 }
 
-  .backgroundWho {
-    background-color: #F9F9F9;
-    padding: 5%;
 
-}
-
-.titleWho {
-    font-family: 'Montserrat', sans-serif;
-    
-}
-
-.textWho {
-    font-family: 'Montserrat Regular', sans-serif;
-    font-size: 12px;
-    line-height: 130%;
-    
-}
-
-.videoWBox {
-    margin-top: -15%;
-}
-
-.linkWho {
-    font-family: 'Montserrat Medium', sans-serif;
-    font-size: 10px;
-    color: #2B7A78;
-    text-align: -webkit-center;
-    margin-top: 5%;
-}
-
-/*.videoWho { 
-    width: 100%;
-    height: 100%;
-
- 
-}
-
-.linkWho {
-    font-family: 'Montserrat Medium', sans-serif;
-    font-size: 9px;
-    color: #2B7A78;
-    
-}
- */
-
-
-
-/*.videoWho {
-    width: 364px;
-    height: 253px;
-    margin-top: 17%;
-} */
-
-/* @media (min-width: 5px) and (max-width: 370px) {
-    
-    .titleWho {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 12px;
-        margin-top: 10%;
-        text-align: center;
-    }
-
-    .videoWBox {
-            
-        margin-top: 11%;
-
-    }
-
-    .textWho {
-        font-family: 'Montserrat Regular', sans-serif;
-        font-size: 7px;
-        margin-top: 10%;
-        line-height: 130%;
-        text-align: center;
-    }
-
-    .linkWho {
-        font-family: 'Montserrat Medium', sans-serif;
-        font-size: 5px;
-        color: #2B7A78;
-        text-align: -webkit-center;
-    }
-    
-} */
-    
-                        /*    .backgroundWho {
-                                background-color: #F9F9F9;
-                                margin-top: -22%;
-                            
-                            }
-    .
-    
-    
-    
-    .iconWho {
-        font-size: 6px;
-        margin: 2%;
-        
-    }
-    
-    .videoWBox {
-        margin-top: -13%;
+    .backgroundHelping {
+       background-color: #fff;
        
+    
     }
 
-    .videoWho {
-        width: 243px;
-        height: 185px;
-        margin-top: 30%;
+    .imgHelp {
+        width: 90%;
+        margin-top: 17%;
     }
-}
 
-@media (min-width: 371px) and (max-width: 575.98px) {
+    .textBox {
+        float: right;
+    }
+    
+    .titleHelping {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 33px;
+        margin-top: 11%;
+        text-align: center;
+    }
+    
+    .textHelping {
+        font-family: 'Montserrat Regular', sans-serif;
+        font-size: 12px;
+        margin-top: 5%;
+        line-height: 130%;
+        text-align: start;
+    }
+
+    .icons {
+        display: flex;
+    }
+
+    .iconsM {
+        margin: 3%;
+        bottom: 30%;
+    }
+    
+
+
+/* @media (min-width: 371px) and (max-width: 575.98px) {
     .backgroundWho {
-        margin-top: 20px;
         background-color: #F9F9F9;
+        margin-top: -7%;
+        position: absolute;
     }
     
     .titleWho {
@@ -164,7 +95,8 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
     .backgroundWho {
         background-color: #F9F9F9;
-
+        margin-top: -7%;
+        position: absolute;
     }
     
     .titleWho {
@@ -210,6 +142,8 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
     .backgroundWho {
         background-color: #F9F9F9;
+        margin-top: 6%;
+        position: absolute;
         height: 309px;
     }
     
@@ -260,8 +194,8 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .backgroundWho {
         background-color: #F9F9F9;
-        height: 45vh;
-    margin-top: -15%;
+        margin-top: -7%;
+        position: absolute;
     }
     
     .titleWho {
@@ -310,6 +244,8 @@
 @media (min-width: 1200px) and (max-width:1280px) {
     .backgroundWho {
         background-color: #F9F9F9;
+        margin-top: -16%;
+        position: absolute;
         height: 432px;
     }
     
@@ -360,6 +296,8 @@
 @media (min-width: 1281px) {
     .backgroundWho {
         background-color: #F9F9F9;
+        margin-top: -12%;
+        position: absolute;
         height: 515px;
     }
     

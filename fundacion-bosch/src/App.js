@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "./Components/NavBar";
 import Video from "./Components/Video";
 import Who from "./Components/Who";
+import Helping from "./Components/Helping";
 import LastProyects from "./Components/LastProyects";
 import HowHelp from "./Components/HowHelp";
 import ContactUs from "./Components/ContactUs";
@@ -14,13 +15,14 @@ class App extends Component {
     return (
     <React.Fragment>
 
-     <NavBar />
-     <Video />
-     <Who />
-     <LastProyects />
-     <HowHelp />
-     <ContactUs /> 
-     <FooterApp />
+    <NavBar></NavBar>
+    <a name="home"></a><Video></Video>
+    <a name="quienes-somos"></a><Who></Who>
+    <a name="como-ayudamos"></a> <Helping />
+    <a name="ultimos-proyectos"></a> <LastProyects />
+    <a name="apoyo"></a> <HowHelp />
+    <a name="contacto"></a> <ContactUs /> 
+    <FooterApp />
 
     </React.Fragment>
     )

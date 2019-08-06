@@ -30,14 +30,14 @@ class Video extends Component {
                             promoviendo la calidad de la educación, con la intención de cultivar verdaderos agentes de cambio
                        </h5>
                 </div> 
-                    <div className="container">
+                    {/* <div className="container">
                     <div className="row arrow">
                         <div className="col">
 
                     <a><i className="fas fa-chevron-down"></i></a>
                         </div>
                     </div>
-                    </div>
+                    </div> */}
 
                 </div>
                 </div>

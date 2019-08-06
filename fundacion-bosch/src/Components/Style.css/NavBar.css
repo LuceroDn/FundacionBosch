@@ -11,17 +11,19 @@
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
-    font-family: 'Montserrat', sans serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     opacity: 100%;
-}
-
-.home {
-    color: #2B7A78 !important;
 }
 
 .nav-link {
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     opacity: 100%;
+}
+
+.nav-link:hover {
+    color: #2B7A78 !important;
 }
 
 @media (min-width: 5px) and (max-width: 369px) {
