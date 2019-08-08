@@ -48,10 +48,6 @@
     margin-top: .5rem;
 }
 
-.icon1 {
-
-}
-
 .icon1:hover {
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);

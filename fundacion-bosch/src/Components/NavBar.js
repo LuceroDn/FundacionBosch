@@ -10,30 +10,30 @@ class NavBar extends Component {
     return (
      <header>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+<nav className="navbar navbar-expand-lg navbar-light bg-white">
+<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand imgNav1" href="#">
+  <a className="navbar-brand imgNav1" href="#">
   <img src={imgLogo} className="d-inline-block align-top img1" alt="React Bootstrap logo"/>
   </a>
-  <a class="navbar-brand imgNav2" href="#">
+  <a className="navbar-brand imgNav2" href="#">
   <img src={imgFRB} className="d-inline-block align-top img2" alt="React Bootstrap logo"/>
   </a>  
   
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-       <a class="nav-link home" href="#home">HOME<span class="sr-only">(current)</span></a>
+  <div className="collapse navbar-collapse" id="navbarText">
+    <ul className="navbar-nav mr-auto">
+      <li className="nav-item active">
+       <a className="nav-link home" href="#home">HOME<span className="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#quienes-somos">¿QUIÉNES SOMOS?</a>
+      <li className="nav-item">
+        <a className="nav-link" href="#quienes-somos">¿QUIÉNES SOMOS?</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#ultimos-proyectos">PROYECTOS</a>
+      <li className="nav-item">
+        <a className="nav-link" href="#ultimos-proyectos">PROYECTOS</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contacto">CONTACTO</a>
+      <li className="nav-item">
+        <a className="nav-link" href="#contacto">CONTACTO</a>
       </li>
     </ul>
   </div>

@@ -26,8 +26,6 @@ class App extends Component {
     <a name="apoyo"></a> <HowHelp />
     <a name="contacto"></a> <ContactUs /> 
     <FooterApp />
-  
-    <a name="formulario"></a> <Form />
 
     </React.Fragment>
     )
